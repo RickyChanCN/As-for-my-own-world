@@ -2,8 +2,15 @@
 <html>
 <head>
 <style>
-    div
-    {
+    body {
+        background:url(./background/background1.jpg);
+        background-size:100% 100%;
+        height: 100%;
+    }
+    html{
+        height: 100%;
+    }
+    div {
         width:300px;
         height:100px;
         background:red;
@@ -12,8 +19,7 @@
         animation:myfirst 5s linear 2s infinite alternate;
     }
 
-    @keyframes myfirst
-    {
+    @keyframes myfirst {
         0%   {background:red; left:0; top:0;}
         25%  {background:yellow; left:200px; top:0;}
         50%  {background:blue; left:200px; top:200px;}
