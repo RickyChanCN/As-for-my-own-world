@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+<style>
+    div
+    {
+        width:300px;
+        height:100px;
+        background:red;
+        box-shadow: 10px 10px 5px #888888;
+        position:relative;
+        animation:myfirst 5s linear 2s infinite alternate;
+    }
+
+    @keyframes myfirst
+    {
+        0%   {background:red; left:0; top:0;}
+        25%  {background:yellow; left:200px; top:0;}
+        50%  {background:blue; left:200px; top:200px;}
+        75%  {background:green; left:0; top:200px;}
+        100% {background:red; left:0; top:0;}
+    }
+</style>
     <meta charset="UTF-8">
     <title>这是程帅比的世界</title>
 </head>
 <body>
 <img src="./bqb/2d5aa7765dc7ea05.gif"/>
-    
-    ？？？
 </body>
+
+<div>别看了，就是帅</div>
+
 </html>
